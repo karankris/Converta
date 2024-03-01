@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    transition: 0.5s !important;
+    scroll-behavior: smooth;
+    /* border: 1px solid #000; */
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.navbar_section{
+    position: sticky;
+    background-color: #fff;
+    top:0;
+    z-index: 1000;
+}
+/* ---------------------NAVBAR--------------- */
+.navbar-brand img{
+    height: 41px;
+
+}
+
+.navbar_section{
+    /* background-image: url(../images/main/main-home-hero-min.png); */
+    background-position: left;
+    background-size: cover;
+    border-bottom-left-radius: 50px;
+}
+.navbar_section .navbar .container-fluid .navbar-toggler{
+    height: 40px;
+}
+.navbar_section .navbar .container-fluid .navbar-collapse .navbar-nav  .nav-item .dropdown_custom_menu{
+    display: none;
+    /* background: #fff; */
+    border-radius: 20px;
+    list-style: none;
+}
+.navbar_section .navbar .container-fluid .navbar-collapse .navbar-nav .hot{
+    background: rgb(255, 229, 229);
+}
+.navbar_section .navbar .container-fluid .navbar-collapse .navbar-nav .new{
+    background: rgb(226, 255, 226);
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.navbar_section .navbar .container-fluid .navbar-collapse .navbar-nav  .nav-item:hover .dropdown_custom_menu{
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+}
+.navbar_section .navbar .container-fluid .navbar-collapse .navbar-nav  .features:hover .dropdown_custom_menu{
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+.navbar_section .navbar .container-fluid .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+    color: rgb(40, 176, 255);
+
+}
+.dropdown_custom:hover{
+    color: rgb(40, 176, 255) !important;
+
+}
+#feature_inner_list_1 li a, #feature_inner_list_2 li a,#feature_inner_list_3 li a, #feature_inner_list_4 li a, .dropdown-item {
+    color: rgb(85, 85, 85) !important;
+}
+.dropdown-item:active{
+    background-color: rgb(241, 241, 241);
+}
+.dropdown-item:hover{
+    background-color: rgb(250, 250, 250);
+}
+.navbar_section .search_box{
+    position: fixed;
+    top: -160px;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    opacity: 0;
+    display: none !important;
+}
+
+/* ---------------------NAVBAR END------------------- */
+
+/* ----------------------FOOTER------------------ */
+
+/* --------------Index Footer--------------- */
+footer{
+    background: url(../images//main/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer .footer_right_content p , .footer .footer_list .footer_list_ul li , .footer .copyright_social_media .copyright{
+    font-size: 14px;
+   
+    font-weight: 500;
+   
+}
+.footer .copyright_social_media .copyright , .footer_right_para{
+    opacity: 1;
+    color: #e7e5ea;
+}
+.footer .footer_right_content .footer_list .footer_list_ul a{
+    color: #e7e5ea;
+    opacity: .7;
+    font-size: 15px;
+}
+li{
+    list-style: none;
+}
+.footer .footer_list .footer_list_ul li{
+    list-style: none;
+}
+.footer .copyright_social_media .social_media{
+    gap: 16px;
+}
+.footer .copyright_social_media .social_media img{
+    height: 25px;
+}
+
+/* -----------------Footer End------------------- */
+
+
+@media only screen and (min-width: 1200px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* ipad air  */
+@media only screen and (max-device-width: 820px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   .navbar_section .navbar .container-fluid .navbar-collapse .navbar-nav  .features:hover .dropdown_custom_menu{
+        display: inline-block;
+        position: absolute;
+        top: 360px;
+        z-index: 2;
+        left: 0;
+    }
+}
+
+/* /* ---- iphone 13pro max ---------- */
+@media only screen and (max-device-width: 430px) {
+
+}
+
+/* /* ---- iphone XR max ---------- */
+@media only screen and (max-device-width: 414px) {
+
+
+
+    /* -----------------INDEX CSS ------------------------ */
+    #build_extend .build_extend_headtitle_content .build_extend_headtitle{
+        line-height: 50px;
+        font-size: 2rem;
+        letter-spacing: -2px;
+    }
+    #employee .employee_headtitle_content .employee_headtitle{
+        line-height: 50px;
+        font-size: 2rem;
+    }
+    /* -------------------------------------------------------- */
+}
+
+/* pixel 5  ----------- */
+@media only screen and (max-device-width: 393px) {
+   
+}
+
+/* iPhone 12 pro ----------- */
+@media only screen and (max-device-width: 390px) {
+    
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (max-device-width: 375px) {
+    
+}
+
+/* samsung galaxy  */
+@media only screen and (max-device-width: 360px) {
+
+}
+
+

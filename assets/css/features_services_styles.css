@@ -1,0 +1,203 @@
+
+/*----------------------------- 24+ startup------------------------ */
+.startup_sec{
+    position: relative;
+}
+.startup_sec{
+    background-image: url(../images/services_styles/bg_middle.png);
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:left center;
+}
+.startup_sec .bg_h1{
+    background-image: url(../images/services_styles/bg_startup.webp);
+    height: 150px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size:contain;
+   background-color: #4C6FFF;  
+   position: relative;
+   top: 59%;
+   right: 16%;
+   border-radius: 15%;
+}
+
+.startup_sec .counter {
+    font-weight: bold;
+    animation: countUp 4s ease-out;
+  }
+  @keyframes countUp {
+    from {
+      opacity: 0;
+      transform: translateY(23px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+/* rounded icon */
+.bg_i1{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:#4c70ff50;
+    margin: 5px;
+    font-size: 24px;
+
+}
+
+/* rounded icon border */
+.bg_i1_border{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0.8px solid #E9E9F9;
+    margin: 5px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #d3d0d0;
+}
+/* ---------Bespoke software development solutions----------- */
+
+.bespoke_software_inner_box{
+    border: 1px solid #6c7794c7;
+}
+#bespoke_software .bespoke_software_boxes .bespoke_software_inner_box:hover{
+    box-shadow: rgba(0, 31, 158, 0.15) 0px 20px 40px 0px;
+}
+#bespoke_software .bespoke_software_boxes .bespoke_software_inner_box .bespoke_software_inner_box_para{
+    font-size: 18px;
+    font-weight: 400;
+    color: #7b88a8c7;
+}
+#bespoke_software .bespoke_software_boxes .bespoke_software_inner_box .learn_more{
+    font-size: 19px;
+    font-weight: 500;
+}
+/* ------------------------------------ */
+/* serv3 */
+.serv3_bg{
+    background-image: url(../images/services_styles/bg_im_serv.webp);
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.serv4 i{
+    font-size: 24px;
+}
+
+/* service sec3 */
+.bg_sec_img{
+    background-image: url(../images/services/bg-pattern-1.png);
+    max-width: auto !important;
+    height: auto;
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #E9E9F9;
+}
+
+
+/* ervice cutting edge tech  */
+.customer_enterprise_plan i,.serv_cutting_edge i,.digi_consult i{
+    font-size: 24px;
+}
+.customer_enterprise_plan .bg_i,.serv_cutting_edge .bg_i,.digi_consult .bg_i{
+    width: 50px;
+    height: 50px;
+    background-color: #a464976a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customer_enterprise_plan .icon_card,.serv_cutting_edge .icon_card,.digi_consult .icon_card{
+    border: none;
+    border-radius: 15px !important;
+}
+.customer_enterprise_plan .icon_card:hover,.serv_cutting_edge .icon_card:hover{
+    cursor: pointer;
+}
+.customer_enterprise_plan .cutting-img,.serv_cutting_edge.cutting-img{
+    border: 10px solid #000000 !important;
+}
+.customer_enterprise_plan .cust_hover{
+    transition: 0.5s ease-in-out !important;
+}
+.customer_enterprise_plan .cust_hover:hover{
+    transition: 0.5s ease-in-out !important;
+    transform: translateY(-10px);
+}
+/* --------------serv 6-------------------------- */
+.serv6 .bg_i1_box{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.serv6 .bg_i1_box i{
+    font-size: 20px;
+}
+.serv6 .c1{
+    background-color: #fef3e7;
+}
+
+.serv6 .c1 i{
+    color:#faba70;
+}
+
+.serv6 .c2{
+    background-color:#e3e5fc;
+}
+
+.serv6 .c2 i{
+    color:#4857f8;
+}
+
+.serv6 .c3{
+    background-color:#fef3e7;
+}
+
+.serv6 .c3 i{
+    color:#48f871;
+}
+
+
+
+/* support s3 with shadoww--------------------------------------------------------- */
+.support_s3 .icon_circle{
+    width: 65px;
+    height: 65px;
+    position: relative;
+    /* margin: 21px 0 25px 0; */
+    background-color: #2974f5;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+ .support_s3 .card{
+    box-shadow: 0px 0px 30px 20px rgba(203, 201, 212, 0.3);
+    cursor:pointer;
+ }
+
+/* serv last style */
+.serv_last .bg_theme{
+    background-color: #2974f5
+}
+

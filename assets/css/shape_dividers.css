@@ -1,0 +1,45 @@
+/* ------ services s1------- */
+.about_s1{
+    background-color: #f8fafc !important;
+}
+.bes1_bg{
+    background-color: #f8fafc !important;
+    border-bottom-left-radius: 11rem !important;
+    border-bottom-right-radius: 11rem !important;
+}
+.bes2_bg{
+    background-color: #dfe5ea !important;
+   
+}
+/* ---------Bespoke software development solutions----------- */
+
+.bespoke_software_inner_box{
+    border: 1px solid #6c7794c7;
+}
+#bespoke_software .bespoke_software_boxes .bespoke_software_inner_box:hover{
+    box-shadow: 0 20px 40px 0 rgba(76.00000000000001,111,255,.15) !important;
+}
+#bespoke_software .bespoke_software_boxes .bespoke_software_inner_box .bespoke_software_inner_box_para{
+    font-size: 18px;
+    font-weight: 400;
+    color: #7b88a8c7;
+}
+#bespoke_software .bespoke_software_boxes .bespoke_software_inner_box .learn_more{
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.btn_bg {
+    background: #4c6fff;
+    border: 1px solid #4c6fff;
+    color: #fff;
+}
+.btn_bg:hover {
+    background: #321370;
+    border: 1px solid #321370;
+    color: #fff;
+}
+.water_effect1{
+    position: relative;
+    top: 101px;
+}

@@ -1,0 +1,84 @@
+/* ------ services s1------- */
+.about_s1{
+    background-color: #f8fafc !important;
+}
+/* ------------ Career type --------------- */
+.career_type .carrer_lgo{
+     color: rgb(76, 111, 255) !important;
+}
+.career_type .career_line{
+    height: 1.5px !important;
+    width: 100% !important;
+    background-color: rgb(76, 111, 255) !important ;
+    opacity: 0.4 !important;
+}
+.career_type .ct_btn{
+    color: #6c757d !important;
+}
+.career_type .ct_btn:hover{
+    color: rgb(76, 111, 255) !important;
+    transition: 0.5s ease-in-out !important;
+}
+/* ------software service------- */
+.soft_service .container .ser_logo{
+    background-color: #fff9e7;
+    font-size: 22px !important;
+    background: #f8fafc !important;
+    padding: 7px 11px 10px !important;
+    border-radius: 3px !important;
+    color: rgb(76, 111, 255) !important;
+}
+
+.soft_service .container .soft_box:hover{
+    box-shadow: 0 20px 40px 0 rgba(76.00000000000001,111,255,.15) !important;
+}
+.ser_count .sc_count1{
+    background-color: #e1fcdc !important;
+}
+.ser_count .sc_count2{
+    background-color: #e3e8ff !important;
+}
+.ser_count .sc_count3{
+    background-color: #ffedef !important;
+}
+.ser_count .sc_count4{
+    background-color: #fff9e6 !important;
+}
+
+
+/* service sec3 */
+.bg_sec_img{
+    background-image: url(../images/services/bg-pattern-1.png);
+    max-width: auto !important;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #E9E9F9;
+}
+
+.about_s3 i{
+    font-size: 24px;
+}
+.about_s3 .bg_i{
+    width: 50px;
+    height: 50px;
+    background-color: #a464976a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_s3 .icon_card{
+    border: none;
+    border-radius: 15px !important;
+}
+.about_s3 .cutting-img{
+    border: 10px solid #000000 !important;
+}
+/* -----------faq--------------- */
+.about_s3 .theme_font_color{
+    font-weight: bolder !important;
+    font-size: 28px !important;
+    color:  #000000 !important;
+}
+

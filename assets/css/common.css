@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+body h1,
+h3 {
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Orelega One', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Yeseva One', cursive;
+}
+body{
+    -webkit-font-smoothing: antialiased;
+    color: #7b88a8;
+    font-size: 18px;
+    font-family: DM Sans;
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #2d3958;
+}
+.line_height{
+    line-height: 2.5rem;
+}
+.li{
+    list-style: none;
+}
+.cursor_pointer{
+    cursor: pointer;
+}
+.special_font_color{
+    color: #4c6fff;
+}
+.object_fit_cover{
+    object-fit: cover;
+}
+.object_fit_contain{
+    object-fit: contain;
+}
+.btn_bg{
+    background: #4c6fff;
+    border: 1px solid #4c6fff;
+    color: #fff !important;
+    
+}
+.btn_bg:hover{
+    background: #321370;
+    border: 1px solid #321370;
+}
+
+.btn_bg_outline{
+    border: 1px solid #4c6fff;
+    background: #fff;
+    color: #4c6fff;
+}
+.btn_bg_outline:hover{
+    background: #4c6fff;
+    color: #fff;
+}
+
+
+/* ----------------First section-------------- */
+.about_s1{
+    background-color: #f8fafc !important;
+}
+.about_s1 .main_page_heading{
+    font-size: 64px;
+    line-height: 72px;
+    text-transform: none;
+    letter-spacing: -2px;
+}
+.about_s1 .current_page .past_page{
+    font-size: 18px;
+}
+.about_s1 .current_page{
+    color: #7b88a8;
+}
+
+/* ----------------------------------------- */
+
+
+
+
+
+/* scroll arrow */
+.scroll_container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+  }
+.scroll_container  .scroll_rotate{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px dashed #3a416f;
+    display: inline-block;
+    animation: rotateBorder 10s linear infinite;
+  }
+  @keyframes rotateBorder {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .scroll_container  .scroll_arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(330deg,#bf869b,#8b81ff);
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    transition: 2s ease hover;
+    position: relative;
+    top: 0px;
+    right: 44.5px;
+  }
+  .scroll_container   .scroll_arrow:hover{
+    cursor: pointer;
+    background: linear-gradient(330deg,#c6809a,#867bfc);
+    color: #fff;
+  }
+
+
+
+/* -----------------------------font -family -------------------- */
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('../fonts/Montserrat-Bold_0.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold_0;
+    src: url('../fonts/Montserrat-SemiBold_0.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Montserrat-Regular_0;
+    src: url('../fonts/Montserrat-Regular_0.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Montserrat-Light_0;
+    src: url('../fonts/Montserrat-Light_0.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Montserrat-Medium_0;
+    src: url('../fonts/Montserrat-Medium_0.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Montserrat-ExtraLight_0;
+    src: url('../fonts/Montserrat-ExtraLight_0.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Montserrat-Thin_0;
+    src: url('../fonts/Montserrat-Thin_0.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: Amigos-7BL14;
+    src: url('../fonts/Amigos-7BL14.ttf') format("opentype")
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid #1eb2a6;
+}
+.btn:focus {
+    box-shadow: none;
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 20px;
+    height: 2em;
+}

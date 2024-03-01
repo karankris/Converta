@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box !important;
+}
+body{
+    -webkit-font-smoothing: antialiased;
+    color: #7b88a8;
+    font-size: 18px;
+    font-family: DM Sans;
+    overflow-x: hidden;
+}
+
+/* --------------Navbar---------------- */
+
+.navbar-brand img{
+    height: 41px;
+
+}
+.navbar_section .navbar .container-fluid .navbar-collapse .nav-link{
+    /* color: rgb(245, 245, 245) */
+}
+
+
+
+
+.about_s1{
+    background-color: #f8fafc !important;
+}
+.about_s1 .main_page_heading{
+    font-size: 64px;
+    line-height: 72px;
+    text-transform: none;
+    letter-spacing: -2px;
+}
+.about_s1 .current_page .past_page{
+    font-size: 18px;
+}
+.about_s1 .current_page{
+    color: #7b88a8;
+}
+
+.first_grid_box_para{
+    font-size: 20px;
+}
+
+
+/* ----------------- INDEX CSS software solutions--------------- */
+.software_solutions{
+    background: url(../images/main/bg-patter-new-min-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.software_solutions .owl-carousel .owl-stage{
+    display: flex;
+}
+.software_solutions .owl-carousel .owl-stage .owl-item{
+    display: flex;
+}
+.software_solutions .software_solutions_img:hover{
+    cursor: grab;
+}
+.scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar {
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    white-space: nowrap;
+  }
+
+  .scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .draggable {
+    cursor: grabbing;
+    user-select: none;
+  }
+
+.software_solutions .container  .scrollbar_content_designation_box{
+    bottom: -40px;
+    background: #4c6fff;
+    border: 1px solid #4c6fff;
+    color: #f8fafc !important;
+    width: 73%;
+}
+.software_solutions .container  .scrollbar_content_designation_box h4{
+    color: #f8fafc;
+}
+/* ------------------------------- */
+
+.software_solutions_3 .software_solutions_img:hover{
+    transform: scale(1.15);
+    display: inline-block;
+    /* border: 30px solid red; */
+    box-sizing: border-box;
+
+}
+.software_solutions_3 .software_solutions_img:hover .scrollbar_img_border{ 
+    /* border: 60px solid red; */
+}
+
+
+#review_and_comment .review_and_comment_headline{
+    font-size: 3rem;
+}
+
+
+
+.software_solutions_5  .word_inside_img{
+    left: 50px;
+    bottom: 10px;
+}
+
+.software_solutions_5  .software_solutions_img_box:hover .portinfo{
+    opacity: 1;
+
+}
+.portinfo{
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    z-index: 3;
+    transition: all 0.3s;
+    background: rgba(41, 39, 39, 0.418);
+}

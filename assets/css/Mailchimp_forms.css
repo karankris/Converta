@@ -1,0 +1,196 @@
+.about_s1{
+    background-color: #f8fafc !important;
+}
+
+/* services last sec */
+.about_s8 .bg_lastsec{
+    background-image: url(../images/aboutus/foot_bg.jpeg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    background-position: center;
+    border-radius: 2% !important;
+}
+
+.about_s8 .email{
+    background: #f4f3f6;
+    border-radius: 5px 0 0 5px;
+    color: #12022f;
+    padding: 14px 22px;
+    box-shadow: none;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.about_s8 .signin{
+    color: #fff;
+    padding: 14px 32px;
+    font-weight: 500;
+    transition: all .3s;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+/*----------------------------- Mail_form------------------------ */
+.mail_form .email{
+    background: #f4f3f6;
+    border-radius: 5px 0 0 5px;
+    color: #12022f;
+    padding: 14px 22px;
+    box-shadow: none;
+    width: 52%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.mail_form .signin{
+    color: #fff;
+    padding: 14px 32px;
+    font-weight: 500;
+    transition: all .3s;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.startup_sec .bg_h1{
+    background-image: url(../images/section_patterns/line_pattern.webp);
+    height: 150px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #4C6FFF;
+    position: relative;
+    top: 35%;
+    right: 106%;
+    border-radius: 15%;
+}
+.happy_customers .bg_h2{
+    background-image: url(../images/section_patterns/line_pattern.webp);
+    height: 150px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: #EB9823;
+   position: relative;
+   top: 30%;
+   right: 16%;
+   border-radius: 15%;
+}
+
+.startup_sec .counter {
+    font-weight: bold;
+    animation: countUp 4s ease-out;
+  }
+  @keyframes countUp {
+    from {
+      opacity: 0;
+      transform: translateY(23px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  /* rounded icon */
+.bg_i1{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:#4c70ff50;
+    margin: 5px;
+    font-size: 24px;
+}
+/* -----------Mail chimp center-------------- */
+/* ------------Ready to get started-------------- */
+.hero_section_get_started_section {
+    background: url(../images/features/call_to_actions/bg-bubble-blur-min.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+#hero_section_get_started .hero_section_get_started_contents .ready_to_start_headline{
+    font-size: 2.3rem;
+}
+#hero_section_get_started .hero_section_get_started_contents .ready_to_start_para{
+    font-size: 23px;
+    line-height: 25px;
+}
+#hero_section_get_started .hero_section_get_started_contents .hero_section_email_address{
+    width: 360px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#hero_section_get_started .hero_section_get_started_contents .hero_section_sign_up{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #4c6fff;
+    color: #fff;
+}
+.hero_section_bottom_wing{
+    right: 99px;
+    bottom: -44px;
+}
+.hero_section_top_bubble{
+    top: -113px;
+    left: -37px;
+}
+
+
+.hero_section_img_left_box{
+    top: 239px;
+    left: -113px;
+    border: 1px solid red;
+   border: 1px solid #4c6fff;
+    background: #4c6fff;
+    background-image: url(../images/section_patterns/line_pattern.webp);
+}
+.hero_section_img_left_box h5{
+    font-size: 25px;
+}
+.hero_section_img_right_corner{
+    bottom: 62px;
+    right: -92px;
+}
+.purecounter{
+    color: #ffc0ec;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 49px;
+    transition: opacity 0.5s ease-in-out; /* Add a fade-in effect */
+  
+}
+
+@media only screen and (max-width: 600px) {
+    .hero_section_img_left_box {
+       top: 53%;
+       left: 0;
+       width: 100%;
+   }
+   
+
+    #hero_section_get_started .hero_section_get_started_contents .hero_section_email_address {
+       width: 100%;
+      
+   }
+
+}
+@media only screen and (max-device-width: 390px) {
+   #hero_section_get_started .hero_section_get_started_contents .ready_to_start_headline {
+       font-size: 2.0rem;
+   }
+   
+   .hero_section_img_left_box {
+       top: 46%;
+       left: 0;
+       width: 100%;
+   }
+   
+}
+@media only screen and (max-device-width: 300px) {
+ 
+   .hero_section_img_left_box {
+       
+       padding: 15px 20px  !important;
+   }
+}

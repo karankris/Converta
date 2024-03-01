@@ -1,0 +1,28 @@
+.blogs_s1{
+    background: linear-gradient(0deg, #E9E9F9 76%, 
+    #E1E2FF00 100%);
+}
+
+.blogs_s2 .mid_line{
+height: 1px;
+width: 95%;
+background-color: #d4d4d8;
+}
+.blogs_s2 .blue_line{
+    height: 1px;
+    width: 8%;
+    background-color: #020224;  
+}
+.blogs_s2 li::marker {
+    color: green;
+  }
+.blogs_s2 li{
+    list-style-type: disc;
+}
+.blog_contain i{
+    font-size: 8px;
+}
+
+.blogs_s2 .ul_items li:hover a{
+    color: #fff !important;
+}

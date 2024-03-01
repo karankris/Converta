@@ -1,0 +1,28 @@
+#build_extend .build_extend_headtitle_content .build_extend_headtitle{
+    line-height: 70px;
+    color: #2d3958;
+    letter-spacing: -2px;
+}
+.special_font_color{
+    color: #4c6fff;
+}
+
+.bg_theme{
+    background-color:#001c7f;
+}
+
+.gradient_text {
+    background: linear-gradient(330deg,#fff, #bf869b, #8526b8);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+.bg_sec{
+        background-image: url(../images/aboutus/sec_bg.png);
+        height: auto;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-color: #f1f1f1d7;
+    }

@@ -1,0 +1,269 @@
+/* ------ services s1------- */
+.about_s1{
+    background-color: #f8fafc !important;
+}
+/* --------------build_extend --------------- */
+
+#build_extend{
+    background: url(../images/main/main-bg-s.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+#build_extend .build_extend_headtitle_content .build_extend_headtitle{
+    line-height: 70px;
+    color: #2d3958;
+    font-size: 4rem;
+    letter-spacing: -2px;
+}
+#build_extend .build_extend_line_height{
+    line-height: 1.6rem;
+}
+.cursor {
+	border-left: 4px solid #4c6fff;
+}
+
+/* ------plans------- */
+.right_plan{
+    background: url(../images/main/bg-patter-new-min.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.right_plan .container .box{
+    width: 50px;
+    height: 25px !important;
+    background-color: #e7e5ea !important;
+}
+.right_plan .container .box{
+    width: 50px;
+    height: 25px !important;
+    background-color: #e7e5ea !important;
+}
+.right_plan .save-label{
+    background: #6ac75a;
+    border-radius: 5px;
+    padding: 3px 13px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+}
+.right_plan .container .dot{
+  height: 18px;
+  width: 18px;
+  border-radius: 1rem !important;
+  background-color: #fff !important;
+  margin-top: 2px;
+}
+.right_plan .container .dot2{
+    height: 18px;
+    width: 18px;
+    border-radius: 1rem !important;
+    background-color:  rgb(76, 111, 255) !important;
+    margin-top: 2px; 
+    margin-left: 30px !important;
+  }
+.right_plan li{
+    display: flex !important;
+    justify-content: left;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+#month_amt , #month_amt1 , #year_amt1, #month_amt2, #year_amt2, #year_amt{
+    font-size: 3.8rem;
+}
+.middle_price{
+    background: #12022f;
+}
+.middle_price_headline{
+    color: rgb(192, 192, 192);
+}
+#month_amt1 ,#year_amt1{
+    color: #fff;
+}
+.middle_price ul li{
+    color: #fff;
+    font-weight: 500;
+}
+
+/* --------10+ years in the game --------------- */
+
+#employee{
+    background: url(../images/main/bg-pattern-image-min.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#employee .employee_headtitle_content .employee_headtitle{
+    line-height: 70px;
+    color: #2d3958;
+    font-size: 4rem;
+    letter-spacing: -2px;
+}
+#employee .employee_headtitle_content .employee_para{
+    font-size: 18px;
+}
+.cursor {
+	border-left: 4px solid #4c6fff;
+}
+.btn_bg{
+    background: #4c6fff;
+    border: 1px solid #4c6fff;
+    color: #fff;
+}
+.btn_bg:hover{
+    background: #321370;
+    border: 1px solid #321370;
+}
+
+        /* -------customer-------- */
+ #employee .customers .container .stars, .happy_customers .container .stars{
+ color:  #FFBB00 !important;
+  font-size: 12px !important;
+ }
+
+/* service sec3 */
+.bg_sec_img{
+    background-image: url(../images/services/bg-pattern-1.png);
+    max-width: auto !important;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #E9E9F9;
+}
+.about_s3 i{
+    font-size: 24px;
+}
+.about_s3 .bg_i{
+    width: 50px;
+    height: 50px;
+    background-color: #a464976a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_s3 .icon_card{
+    border: none;
+    border-radius: 15px !important;
+}
+.about_s3 .cutting-img{
+    border: 10px solid #000000 !important;
+}
+
+
+
+/*----------------------------- 24+ startup------------------------ */
+.startup_sec{
+    background-image: url(../images/section_patterns/center_gradient.png);
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:left center;
+    position: relative;
+}
+.startup_sec .bg_h1{
+    background-image: url(../images/section_patterns/line_pattern.webp);
+    height: 150px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size:contain;
+   background-color: #4C6FFF;  
+   position: relative;
+   top: 59%;
+   right: 16%;
+   border-radius: 15%;
+}
+.happy_customers .bg_h2{
+    background-image: url(../images/section_patterns/line_pattern.webp);
+    height: 150px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: #EB9823;
+   position: relative;
+   top: 30%;
+   right: 16%;
+   border-radius: 15%;
+}
+
+.startup_sec .counter {
+    font-weight: bold;
+    animation: countUp 4s ease-out;
+  }
+  @keyframes countUp {
+    from {
+      opacity: 0;
+      transform: translateY(23px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  /* rounded icon */
+.bg_i1{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:#4c70ff50;
+    margin: 5px;
+    font-size: 24px;
+}
+/* --------------- Hero tech ------------------------ */
+.hero_tech_last{
+    background-image: url(../images/section_patterns/tech-bg.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto !important;
+}
+.hero_tech_last .last_hero_cont{
+    background-image: url(../images/section_patterns/circle_gradient.png);
+    background-position: 48% 115px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* --------- Happy customers--------------- */
+.happy_customers{
+    background-image: url(../images/section_patterns/BG-pattern-bubble-min-left.png);
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100% !important;
+    background-position:right;
+}
+.happy_customers .happy_cont{
+        background-image: url(../images/section_patterns/center_gradient.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position:left center;
+}
+
+.happy_customers .customers{
+    background-image: url(../images/section_patterns/emoji_bg.png);
+    background-position: left !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/*  pattern_business */
+.pattern_buis .bg_sec_img{
+    background-image: url(../images/services/bg-pattern-1.png);
+    max-width: auto !important;
+    height: auto;
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #E9E9F9;
+}
+.pattern_buis .cust_hover{
+    transition: 0.5s ease-in-out !important;
+}
+.pattern_buis .cust_hover:hover{
+    transition: 0.5s ease-in-out !important;
+    transform: translateY(-10px);
+}

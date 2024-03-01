@@ -1,0 +1,71 @@
+/* -------customer-------- */
+.stars{
+    color:  #FFBB00 !important;
+    font-size: 12px !important;
+}
+
+.c3 .card{
+    background: #f8fafc;
+    box-shadow: 0 10px 20px transparent;
+}
+.c1{
+    background-image: url(../images/testimonials_styles/test_bg.webp);
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position:contain;
+}
+
+.owl-carousel.second {
+    position: relative;
+  }
+
+  .owl-nav {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    font-size: 24px;
+    color:#fff;
+    outline: none !important;
+  }
+button.owl-prev, button.owl-next{
+    outline: none !important;
+    border: none !important;
+    border-radius:50% ;
+}
+
+  .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .owl-stage {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .owl-item {
+    width: 100%; 
+  }
+
+  .bg_i2{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(221, 221, 255);
+    border: 1px rgb(221, 221, 255) solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+}
+
+.parent_owl{
+    position: relative;
+}

@@ -1,0 +1,38 @@
+.bg_sec_img{
+    background-image: url(../images/pricing_styles/bg-patter-new-min\ \(1\).webp);
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: #fefefe;
+}
+
+.col_secp4{
+    background-image: url(../images/services_styles/bg_middle.png);
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+/* ecoomerce btn */
+.bg_im2{
+    background-image: url(../images/pricing_styles/bg-patter-new-min\ \(1\).webp);
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.btn_shadow{
+box-shadow: 0px 0px 10px 10px #e7e4e4;
+}
+
+.col_shadow{
+box-shadow: 0px 0px 50px 50px #e7e4e4;
+}
+
+/* Ecommerce Plans Buttons all 3 white */
+.col_shadow2{
+    box-shadow: 0px 0px 20px 20px #e7e4e4;
+}

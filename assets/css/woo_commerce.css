@@ -1,0 +1,111 @@
+#products .prod_info_img:hover{
+    transform: scale(1.15);
+    display: inline-block;
+   
+    box-sizing: border-box;
+
+}
+
+#products .prod_info_img_box:hover .prod_info{
+    opacity: 1;
+
+}
+#products .prod_info_img_box .prod_info{
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    transition: all 0.3s;
+    background: rgba(161, 161, 161, 0.418);
+}
+
+#products .prod_info_img_box .cart_icon{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 33%;
+    background: #fff;
+    padding: 13px 18px;
+}
+#products .prod_info_img_box .exapand_icon{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 33%;
+    background: #fff;
+    padding: 13px 18px;
+}
+
+#products .prod_info_img_box:hover .cart_icon{
+    bottom: 10%;
+}
+#products .prod_info_img_box:hover .exapand_icon{
+    bottom: 10%;
+}
+
+
+
+
+
+
+
+/* ---------- Carousal------------------ */
+
+.owl-pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot.active{
+    margin:5px ;
+    background-color: #4c6fff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+    background-color: rgb(121, 121, 124);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin:5px ;
+}
+
+
+.shops_products .row .img_col:hover{
+    opacity: 0.7;
+    transition: opacity 0.5s ease-out; 
+}
+
+.shops_products .row .img_col:hover .pos_i{
+    display: flex !important;
+    flex-direction: row !important;
+    opacity: 1;
+}
+.embed_i{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin-left: 5px;
+    color:rgb(0, 0, 0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.img_col{
+    position: relative;
+}
+.pos_i{
+    position: absolute !important;
+    bottom: 35% !important;
+    left: 40% !important;
+    display: none;
+}
+/* --------Carousal End---------------------- */

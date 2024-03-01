@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box !important;
+}
+body{
+    -webkit-font-smoothing: antialiased;
+    color: #7b88a8;
+    font-size: 18px;
+    font-family: DM Sans;
+    overflow-x: hidden;
+}
+
+/* --------------Navbar---------------- */
+
+.navbar-brand img{
+    height: 41px;
+
+}
+
+
+
+/* ---------------------------- */
+
+/* ------------Ready to get started-------------- */
+.hero_section_get_started_section {
+    background: url(../images/features/call_to_actions/bg-bubble-blur-min.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+#hero_section_get_started .hero_section_get_started_contents .ready_to_start_headline{
+    font-size: 2.3rem;
+}
+#hero_section_get_started .hero_section_get_started_contents .ready_to_start_para{
+    font-size: 23px;
+    line-height: 25px;
+}
+#hero_section_get_started .hero_section_get_started_contents .hero_section_email_address{
+    width: 360px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#hero_section_get_started .hero_section_get_started_contents .hero_section_sign_up{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.hero_section_bottom_wing{
+    right: 99px;
+    bottom: -44px;
+}
+.hero_section_top_bubble{
+    top: -113px;
+    left: -37px;
+}
+
+
+.hero_section_img_left_box{
+    top: 239px;
+    left: -113px;
+    border: 1px solid red;
+   border: 1px solid #4c6fff;
+    background: #4c6fff;
+    background-image: url(../images/features/call_to_actions/vectors-group.png);
+}
+.hero_section_img_left_box h5{
+    font-size: 25px;
+}
+.hero_section_img_right_corner{
+    bottom: 62px;
+    right: -92px;
+}
+.purecounter{
+    color: #ffc0ec;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 49px;
+    transition: opacity 0.5s ease-in-out; /* Add a fade-in effect */
+  
+}
+
+
+
+
+/* --------10+ years in the game --------------- */
+
+.employee_section{
+    background: url(../images/main/bg-pattern-image-min.png);
+    background-position: center;
+    background-repeat: no-repeat;
+ 
+}
+
+#employee .employee_headtitle_content .employee_headtitle{
+    line-height: 70px;
+    color: #2d3958;
+    font-size: 4rem;
+    letter-spacing: -2px;
+}
+#employee .employee_headtitle_content .employee_para{
+    font-size: 18px;
+}
+.cursor {
+	border-left: 4px solid #4c6fff;
+}
+.btn_bg{
+    background: #4c6fff;
+    border: 1px solid #4c6fff;
+    color: #fff;
+}
+.btn_bg:hover{
+    background: #321370;
+    border: 1px solid #321370;
+}
+
+
+/* -- ----------------------We’re building business -----------------  -- */
+#building_business  .graph_inside_img{
+    top: 200px;
+    left: -22px;
+}
+#building_business .building_business_contents .number_count{
+    font-size: 3.8rem;
+    color: #6ac75a;
+}
+#building_business {
+    background: url(../images/features/call_to_actions/shapes-bg.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+#building_business .building_business_contents span{
+    color: #321370;
+}
+#building_business .building_business_contents .building_business_content_heading{
+    font-size: 2.5rem;
+}
+#building_business .building_business_contents .building_business_count{
+    gap: 60px;
+}
+/* -------------------------------------------------------- */
+
+.employee_section_2 .container{
+    background: url(../images/features/call_to_actions/bg-pattern0.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+#employee .employee_headtitle_content .employee_headtitle_2{
+    line-height: 70px;
+    color: #321370;
+    font-size: 3.3rem;
+    letter-spacing: -2px;
+}
+/* --------------------------------------- */
+
+.transformative_collaboration{
+    background: #f8fafc;
+}
+
+/* ----------------------------------- */
+
+.workplace_focused{
+    background: url(../images/features/call_to_actions/tech-bg-005.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}

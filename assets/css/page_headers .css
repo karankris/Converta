@@ -1,0 +1,16 @@
+/* ------ services s1------- */
+.about_s1{
+    background-color: #f8fafc !important;
+}
+/* ---header content-------- */
+.header_content .img_shad{
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.06) !important;
+
+}
+/* ---------  Page line------------------ */
+    .page_line{
+        height: 1.5px !important;
+        width: 100% !important;
+        background-color: #ebebeb !important ;
+        opacity: 0.6 !important;
+    }

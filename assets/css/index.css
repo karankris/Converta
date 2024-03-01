@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    transition: 0.5s !important;
+    scroll-behavior: smooth;
+    /* border: 1px solid #000; */
+}
+
+body{
+    overflow-x: hidden;
+    color: #7b88a8;
+}
+.line_height{
+    line-height: 1.6rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #2d3958;
+}
+
+.scrollbar_content::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar_content {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+/* ---------------Navbar --------------- */
+.navbar_section1{
+    background-image: url(../images/main/main-home-hero-min.png);
+}
+.navbar_section{
+    background-image: url(../images/main/nav_main.png);
+    border-bottom-left-radius: 0px;
+}
+.nav_radius{
+    border-bottom-left-radius: 50px !important;
+}
+.navbar_section .navbar .container-fluid .navbar-collapse .navbar-nav  .nav-item .dropdown_custom_menu{
+   
+    background: #fff;
+
+}
+.navbar_section .navbar .container-fluid .navbar-collapse .nav-link{
+    color: rgb(245, 245, 245)
+}
+/* ----------First Section---------- */
+
+.hero_page_heading_font{
+    font-size: 4.5rem;
+}
+.special_font_color{
+    color: #4c6fff;
+}
+
+/* ------------------------------------------ */
+
+/* --------------build_extend --------------- */
+
+#build_extend{
+    background: url(../images/main/main-bg-s.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+#build_extend .build_extend_headtitle_content .build_extend_headtitle{
+    line-height: 70px;
+    color: #2d3958;
+    font-size: 4rem;
+    letter-spacing: -2px;
+}
+#build_extend .build_extend_line_height{
+    line-height: 1.6rem;
+}
+.cursor {
+	border-left: 4px solid #4c6fff;
+}
+
+/* -------------------------------------------- */
+
+/* ---------Bespoke software development solutions----------- */
+
+.bespoke_software_inner_box{
+    border: 1px solid #6c7794c7;
+}
+#bespoke_software .bespoke_software_boxes .bespoke_software_inner_box:hover{
+    box-shadow: rgba(0, 31, 158, 0.15) 0px 20px 40px 0px;
+}
+#bespoke_software .bespoke_software_boxes .bespoke_software_inner_box .bespoke_software_inner_box_para{
+    font-size: 18px;
+    font-weight: 400;
+    color: #7b88a8c7;
+}
+#bespoke_software .bespoke_software_boxes .bespoke_software_inner_box .learn_more{
+    font-size: 19px;
+    font-weight: 500;
+}
+/* ------------------------------------ */
+ 
+/* -----------------software solutions--------------- */
+#software_solutions{
+    background: url(../images/main/bg-patter-new-min-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+#software_solutions .owl-carousel .owl-stage{
+    display: flex;
+}
+#software_solutions .owl-carousel .owl-stage .owl-item{
+    display: flex;
+}
+#software_solutions .software_solutions_img:hover{
+    cursor: grab;
+}
+.scrollbar_content::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar_content {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar_content {
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    white-space: nowrap;
+  }
+
+  .scrollbar_content::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar_content.draggable {
+    cursor: grabbing;
+    user-select: none;
+  }
+
+
+
+
+/* --------10+ years in the game --------------- */
+
+#employee{
+    background: url(../images/main/bg-pattern-image-min.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#employee .employee_headtitle_content .employee_headtitle{
+    line-height: 70px;
+    color: #2d3958;
+    font-size: 4rem;
+    letter-spacing: -2px;
+}
+#employee .employee_headtitle_content .employee_para{
+    font-size: 18px;
+}
+.cursor {
+	border-left: 4px solid #4c6fff;
+}
+.btn_bg{
+    background: #4c6fff;
+    border: 1px solid #4c6fff;
+    color: #fff;
+}
+.btn_bg:hover{
+    background: #321370;
+    border: 1px solid #321370;
+}
+
+        /* -------customer-------- */
+ #employee .customers .container .stars{
+ color:  #FFBB00 !important;
+  font-size: 12px !important;
+ }
+
+
+/* --------------------------------------------------------------- */
+
+/* ------plans------- */
+.right_plan{
+    background: url(../images/main/bg-patter-new-min.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.right_plan .container .box{
+    width: 50px;
+    height: 25px !important;
+    background-color: #e7e5ea !important;
+}
+.right_plan .container .box{
+    width: 50px;
+    height: 25px !important;
+    background-color: #e7e5ea !important;
+}
+.right_plan .save-label{
+    background: #6ac75a;
+    border-radius: 5px;
+    padding: 3px 13px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+}
+.right_plan .container .dot{
+  height: 18px;
+  width: 18px;
+  border-radius: 1rem !important;
+  background-color: #fff !important;
+  margin-top: 2px;
+}
+.right_plan .container .dot2{
+    height: 18px;
+    width: 18px;
+    border-radius: 1rem !important;
+    background-color:  rgb(76, 111, 255) !important;
+    margin-top: 2px; 
+    margin-left: 30px !important;
+  }
+.right_plan li{
+    display: flex !important;
+    justify-content: left;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+#month_amt , #month_amt1 , #year_amt1, #month_amt2, #year_amt2, #year_amt{
+    font-size: 3.8rem;
+}
+.middle_price{
+    background: #12022f;
+}
+.middle_price_headline{
+    color: rgb(192, 192, 192);
+}
+#month_amt1 ,#year_amt1{
+    color: #fff;
+}
+.middle_price ul li{
+    color: #fff;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* ipad air  */
+@media only screen and (max-device-width: 820px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   .hero_page_heading_font{
+       font-size: 2.7rem;
+   }
+   .line_height{
+       line-height: 3.0rem;
+   }
+   #build_extend .build_extend_headtitle_content .build_extend_headtitle{
+        line-height: 50px;
+        font-size: 3rem;
+        letter-spacing: -2px;
+    }
+    #employee .employee_headtitle_content .employee_headtitle{
+        line-height: 50px;
+        font-size: 3rem;
+    }
+}
+
+/* /* ---- iphone 13pro max ---------- */
+@media only screen and (max-device-width: 430px) {
+
+}
+
+/* /* ---- iphone XR max ---------- */
+@media only screen and (max-device-width: 414px) {
+    #build_extend .build_extend_headtitle_content .build_extend_headtitle{
+        line-height: 50px;
+        font-size: 2rem;
+        letter-spacing: -2px;
+    }
+    #employee .employee_headtitle_content .employee_headtitle{
+        line-height: 50px;
+        font-size: 2rem;
+    }
+    
+}
+
+/* pixel 5  ----------- */
+@media only screen and (max-device-width: 393px) {
+   
+}
+
+/* iPhone 12 pro ----------- */
+@media only screen and (max-device-width: 390px) {
+    
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (max-device-width: 375px) {
+    #month_amt , #month_amt1 , #year_amt1, #month_amt2, #year_amt2, #year_amt{
+        font-size: 3.5rem;
+    }
+}
+
+/* samsung galaxy  */
+@media only screen and (max-device-width: 360px) {
+    
+}
+
+

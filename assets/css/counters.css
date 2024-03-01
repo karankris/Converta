@@ -1,0 +1,133 @@
+/*----------------------------- 24+ startup------------------------ */
+.startup_sec{
+    background-image: url(../images/section_patterns/center_gradient.png);
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:left center;
+    position: relative;
+}
+.startup_sec .bg_h1{
+    background-image: url(../images/features/call_to_actions/vectors-group.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+   background-color: #4C6FFF;  
+   position: relative;
+   top: 59%;
+   right: 16%;
+   /* border-radius: 15%; */
+
+}
+.startup_sec .bg_h1 h1{
+  font-size: 45px;
+}
+
+
+.startup_sec .counter {
+    font-weight: bold;
+    animation: countUp 4s ease-out;
+    color: #ffc0ec;
+  }
+  @keyframes countUp {
+    from {
+      opacity: 0;
+      transform: translateY(23px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  /* rounded icon */
+.bg_i1{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:#4c70ff50;
+    margin: 5px;
+    font-size: 24px;
+}
+
+
+
+
+/* -- ----------------------We’re building business -----------------  -- */
+#building_business  .graph_inside_img{
+  top: 200px;
+  left: -22px;
+}
+#building_business .building_business_contents .number_count{
+  font-size: 3.8rem;
+  color: #6ac75a;
+}
+#building_business {
+  background: url(../images/features/call_to_actions/shapes-bg.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+#building_business .building_business_contents span{
+  color: #321370;
+}
+#building_business .building_business_contents .building_business_content_heading{
+  font-size: 2.5rem;
+}
+#building_business .building_business_contents .building_business_count{
+  gap: 60px;
+}
+/* -------------------------------------------------------- */
+
+.ser_count h1{
+  font-size: 4rem;
+}
+.ser_count .sc_count1{
+  background-color: #e1fcdc !important;
+  gap: 20px;
+}
+.ser_count .sc_count2{
+  background-color: #e3e8ff !important;
+  gap: 20px;
+
+}
+.ser_count .sc_count3{
+  background-color: #ffedef !important;
+  gap: 20px;
+
+}
+.ser_count .sc_count4{
+  background-color: #fff9e6 !important;
+  gap: 20px;
+
+}
+
+
+
+/* ----------------------------------- */
+#augment  .augment_img_content_box{
+  
+  background-color: #FFC947;
+ 
+  background-image: url(../images/features/call_to_actions/vectors-group.png);
+  background-size: contain;
+  top: 33%;
+    right: 5%;
+}
+
+#augment .counter_2{
+  color: #fff;
+}
+#augment{
+  /* background: url(../images/features/counters/cirlce-bg-bubble-22-min.png); */
+  /* background-position: right center; */
+  /* background-size: ; */
+}
+#augment .augment_img_content .top_left_design{
+  left: -99px;
+    top: 29px;
+}
+#augment .augment_img_content .bottom_right_design{
+  bottom: -44px;
+}

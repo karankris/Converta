@@ -1,0 +1,212 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1150px) {
+     /* -------------------------------------------------------------- */
+
+     .hero_section_img_left_box {
+        top: 53%;
+        left: 0;
+        width: 100%;
+    }
+    
+
+     #hero_section_get_started .hero_section_get_started_contents .hero_section_email_address {
+        width: 100%;
+       
+    }
+}
+
+/* ipad air  */
+@media only screen and (max-device-width: 820px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /* ------------COMMON CSS--------------- */
+
+    .about_s1 .main_page_heading {
+        font-size: 55px;
+        line-height: 49px;
+    }
+
+    /* ------------------------------------ */
+
+
+    /* ------------------INDEX CSS_____________________________ */
+
+    .hero_page_heading_font{
+        font-size: 2.7rem;
+    }
+    .line_height{
+        line-height: 3.0rem;
+    }
+    #build_extend .build_extend_headtitle_content .build_extend_headtitle{
+         line-height: 50px;
+         font-size: 3rem;
+         letter-spacing: -2px;
+     }
+     #employee .employee_headtitle_content .employee_headtitle{
+         line-height: 50px;
+         font-size: 3rem;
+     }
+
+     /* -------------------------------------------------------------- */
+
+     .hero_section_img_left_box {
+        top: 53%;
+        left: 0;
+        width: 100%;
+    }
+    
+
+     #hero_section_get_started .hero_section_get_started_contents .hero_section_email_address {
+        width: 100%;
+       
+    }
+
+    #building_business .building_business_contents .building_business_count{
+        gap: 35px;
+    }
+
+
+    /* ------------Counters CSS---------------- */
+    .startup_sec .bg_h1{
+        top: 53%;
+        left: 0;
+        width: 100%;
+    }
+   
+}
+
+/* /* ---- iphone 13pro max ---------- */
+@media only screen and (max-device-width: 430px) {
+
+    /* ----------COMMON CSS--------------- */
+    
+    .about_s1 .main_page_heading {
+        font-size: 56px;
+        line-height: 53px;
+    }
+    /* --------------------------------------- */
+}
+
+/* /* ---- iphone XR max ---------- */
+@media only screen and (max-device-width: 414px) {
+
+
+
+    /* ------------portfolio_style CSS------------------------ */
+    /* -- --------second carousal-------------  */
+    #software_solutions .container .scrollbar_content_designation_box {
+        width: 85%;
+    }
+    /* -------------Third carousal--------------- */
+    #review_and_comment .review_and_comment_headline {
+        font-size: 1.8rem;
+    }
+    /* ----------------------------------------------------- */
+
+
+    #building_business .building_business_contents .building_business_count{
+        gap: 25px;
+    }
+}
+
+/* pixel 5  ----------- */
+@media only screen and (max-device-width: 393px) {
+
+    /* ----------PORTFOLIO STYLE CSS----------------- */
+    .software_solutions .container .scrollbar_content_designation_box {
+        
+        width: 80%;
+    }
+   /* ------------------------------------ */
+}
+
+/* iPhone 12 pro ----------- */
+@media only screen and (max-device-width: 390px) {
+    #hero_section_get_started .hero_section_get_started_contents .ready_to_start_headline {
+        font-size: 2.0rem;
+    }
+    
+    
+    .hero_section_img_left_box {
+        top: 46%;
+        left: 0;
+        width: 100%;
+    }
+    
+
+    #building_business .graph_inside_img {
+        top: 111px;
+        left: -9px;
+    }
+
+    #employee .employee_headtitle_content .employee_headtitle{
+        line-height: 40px;
+        
+        font-size: 2.4rem;
+        letter-spacing: -2px;
+    }
+    #employee .employee_headtitle_content .employee_headtitle_2{
+        line-height: 50px;
+   
+        font-size: 2.4rem;
+        letter-spacing: -2px;
+    }
+    #building_business .building_business_contents .building_business_count{
+        gap: 17px;
+    }
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (max-device-width: 375px) {
+    
+    /* ------------------------INDEX CSS---------------------- */
+    #month_amt , #month_amt1 , #year_amt1, #month_amt2, #year_amt2, #year_amt{
+        font-size: 3.5rem;
+    }
+    #employee .employee_headtitle_content .employee_headtitle{
+ 
+        font-size: 2rem;
+
+    }
+    /* ------------------------------------------------- */
+}
+
+/* samsung galaxy  */
+@media only screen and (max-device-width: 360px) {
+
+}
+@media only screen and (max-device-width: 300px) {
+
+    /* ----------COMMON CSS--------------- */
+    .about_s1 .main_page_heading {
+        font-size: 47px;
+        line-height: 43px;
+    }
+    /* ------------------------------------ */
+    #month_amt , #month_amt1 , #year_amt1, #month_amt2, #year_amt2, #year_amt{
+        font-size: 2rem;
+    }
+
+    .hero_section_img_left_box {
+        
+        padding: 15px 20px  !important;
+    }
+
+
+}
+
+
+
+

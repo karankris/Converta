@@ -1,0 +1,122 @@
+/* ------ services s1------- */
+.line_height{
+    line-height: 1.6rem;
+}
+
+
+.about_s1{
+    background-color: #f8fafc !important;
+}
+/* ----------First Section---------- */
+.first_hero{
+    background-image: url(../images/main/main-home-hero-min.png);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 50px;
+}
+.hero_page_heading_font{
+    font-size: 4.5rem;
+}
+.special_font_color{
+    color: #4c6fff;
+}
+
+
+.first_sec .btn_bg{
+    background: #4c6fff;
+    border: 1px solid #4c6fff;
+    color: #fff;
+}
+.first_sec .btn_bg:hover{
+    background: #321370;
+    border: 1px solid #321370;
+}
+.navbar_section1{
+    background-image: url(../images/main/main-home-hero-min.png);
+    background-position: left;
+    background-size: cover;
+    border-bottom-left-radius: 50px;
+}
+/* ---------- agency ----------- */
+.agency{
+    background-image: url(../images/hero/agency-bg-hero-min.jpeg);
+    background-position: left;
+    background-size: cover;
+}
+ .hero_down{
+    transform: rotate(180deg);
+}
+.agency .special_font_color{
+    background: linear-gradient(272.54deg,#FFABE6 12.86%,#857FFF 68.06%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.agency .play_lgo, .hero_tech_last .play_lgo{
+    padding-top: 44px;
+    font-size: 3.5rem !important;
+     color:  #fff !important;
+}
+.hero_down .play_lgo1{
+    font-size: 3.5rem !important;
+    position: relative;
+    top: 60px;
+    background: linear-gradient(272.54deg, #f9c45c 12.86%, #f9c45c 68.06%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.agency .slant_img{
+    height: 135px;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    transform: skewX(-365deg) skewY(183deg) rotate(2deg);
+    bottom: -100px ;
+}
+/* -----hero business-- */
+.business{
+    background-image: url(../images/hero/business-hero-1.jpeg);
+    background-position: left;
+    background-size: cover;
+ 
+}
+.business .special_font_color{
+    background: linear-gradient(272.54deg,#FFABE6 12.86%,#857FFF 68.06%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* ---------- hero tools----------------- */
+.hero_tools{
+    background-image: linear-gradient(0deg,#E9E9F9 0.76%,#E1E2FF00 100%);
+   
+}
+.hero_tools .tools_head{
+
+    font-weight: 500;
+   
+    letter-spacing: 0;
+}
+.hero_tools .btn_bg{
+    background: #4c6fff;
+    border: 1px solid #4c6fff;
+    color: #fff;
+}
+.hero_tools .btn_bg:hover{
+    background: #321370;
+    border: 1px solid #321370;
+}
+
+/* -------- hero_dashboard1--------------- */
+.hero_dashboard1{
+    position: relative;
+    bottom: 50px;
+}
+/* --------------- Hero tech ------------------------ */
+.hero_tech_last{
+    background-image: url(../images/hero/tech-bg-slider-last.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto !important;
+}

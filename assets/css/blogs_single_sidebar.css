@@ -1,0 +1,88 @@
+.blogs_s1{
+    background: linear-gradient(0deg, #E9E9F9 76%, 
+    #E1E2FF00 100%);
+}
+
+.blogs_s2 .mid_line{
+height: 1px;
+width: 95%;
+background-color: #d4d4d8;
+}
+.blogs_s2 .blue_line{
+    height: 1px;
+    width: 8%;
+    background-color: #020224;  
+}
+.blogs_s2 li::marker {
+    color: green;
+  }
+.blogs_s2 li{
+    list-style-type: disc;
+}
+.blog_contain i{
+    font-size: 8px;
+}
+
+/* features forms */
+
+.form_s2 form input,.form_s2 form textarea{
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    background: linear-gradient(to right,#f8fbff,#f5f8fb);
+}
+.form_s2 form input:focus,
+.form_s2 form textarea:focus {
+outline: none !important;
+}
+.form_s2 form ::placeholder {
+    color: #a2a2a2; /* Set the placeholder text color */
+  }
+.form_s2 form  input[type="checkbox"]:checked {
+    background-color: #3498db; /* Change the background color when checked */
+  }
+
+.reply_forms button:hover{
+    color: #3498db;
+}
+.blogs_s2 .ul_items li:hover a{
+    color: #fff !important;
+}
+
+/* last section */
+.about_s8 {
+    background-image: url(../images/services/services_last.webp);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    background-position: center;
+    border-radius: 2% !important;
+}
+
+.about_s8 .email{
+    background: #f4f3f6;
+    border-radius: 5px 0 0 5px;
+    color: #12022f;
+    padding: 14px 22px;
+    box-shadow: none;
+    width: 100%;
+}
+.about_s8 .signin{
+    color: #fff;
+    padding: 14px 32px;
+    font-weight: 500;
+    transition: all .3s;
+}
+
+.tablinks:hover{
+    cursor: pointer;
+}
+
+.sticky_news{
+    position: relative;
+    bottom: 5rem;
+}
+.latest_news .page_line{
+        height: 2.5px !important;
+        width: 50px !important;
+        background-color: #ebebeb !important ;       
+}
